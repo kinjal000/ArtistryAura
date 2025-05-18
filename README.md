@@ -54,3 +54,10 @@ Built with a soothing color palette and artistic typography, it offers a serene 
 
 ---
 
+<img width="1470" alt="Screenshot 2025-05-18 at 10 05 21 PM" src="https://github.com/user-attachments/assets/bfb4b216-c621-4606-8b8b-24d57f982f1f" />
+<img width="1470" alt="Screenshot 2025-05-18 at 10 05 33 PM" src="https://github.com/user-attachments/assets/a2919b0c-5475-44d9-a1ae-7724239b00f9" />
+<img width="1470" alt="Screenshot 2025-05-18 at 10 05 50 PM" src="https://github.com/user-attachments/assets/8574b435-c699-472d-a0a5-3b25e8893cee" />
+<img width="1470" alt="Screenshot 2025-05-18 at 10 05 59 PM" src="https://github.com/user-attachments/assets/29e15d88-ef5d-444c-bef6-615511e8cf65" />
+<img width="1470" alt="Screenshot 2025-05-18 at 10 06 13 PM" src="https://github.com/user-attachments/assets/ab8cf383-bc3b-4052-a968-6e2ab0184148" />
+<img width="1470" alt="Screenshot 2025-05-18 at 10 06 22 PM" src="https://github.com/user-attachments/assets/c0bc365c-3c77-40b7-9c05-1644ef4e4fca" />
+
