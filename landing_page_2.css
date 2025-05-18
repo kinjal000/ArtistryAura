@@ -1,0 +1,416 @@
+:root {
+    --color1: #D8CAB8; /* warm sand */
+    --color2: #E9C9C0; /* blush pink */
+    --color3: #A3B18A; /* sage green */
+    --color4: #8C7A6B; /* soft taupe */
+    --color5: #B53A61; /* retained (original pinkish red) */
+    --color6: #B55A0C; /* retained (original warm brown) */
+    --color7: #F9F6F0; /* light cream */
+    --color8: #0E131C; /* retained (dark blue/black) */
+    --color9: #C4A69F; /* dusty rose */
+}
+
+/* Aesthetic font for painting theme */
+body {
+    background-color: var(--color7);
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 0;
+    color: var(--color8);
+}
+
+header {
+    background-color: var(--color1);
+    color: var(--color8);
+    text-align: center;
+    padding: 30px 0;
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+}
+
+header h1 {
+    font-size: 3em;
+    margin: 0;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+header p {
+    font-size: 1.25em;
+    margin-top: 0.3em;
+    font-style: italic;
+    color: var(--color5);
+}
+
+nav {
+    background-color: var(--color3);
+    padding: 10px 0;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: var(--color7);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1em;
+    padding: 6px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: var(--color2);
+    color: var(--color8);
+}
+
+main {
+    padding: 30px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.intro-video video {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+}
+
+#hi {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 2.5em;
+    color: var(--color5);
+    margin-bottom: 5px;
+}
+
+audio {
+    margin-top: 15px;
+    width: 80%;
+    max-width: 400px;
+    outline: none;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px var(--color3);
+}
+
+.hero-section {
+    background: linear-gradient(135deg, var(--color1), var(--color3), var(--color2), var(--color4) );
+    color: var(--color8);
+    padding: 40px 30px;
+    border-radius: 15px;
+    text-align: center;
+    margin-bottom: 40px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.hero-section h2 {
+    font-family: 'Georgia', serif;
+    font-size: 2.8em;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-size: 1.25em;
+    margin-bottom: 30px;
+    font-style: italic;
+}
+
+.hero-section button {
+    background-color: var(--color5);
+    color: var(--color7);
+    border: none;
+    padding: 14px 30px;
+    font-size: 1.2em;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: 'Georgia', serif;
+}
+
+.hero-section button:hover {
+    background-color: var(--color6);
+}
+
+/* Specialties and best sellers */
+.specialties, .best-sellers {
+    margin: 40px 0;
+    color: var(--color3);
+}
+
+.specialties ul, .best-sellers ul {
+    list-style-type: square;
+    font-size: 1.2em;
+    margin-top: 15px;
+}
+
+.collection-section {
+    background-color: var(--color1);
+    padding: 25px;
+    border-radius: 12px;
+    margin-bottom: 40px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    color: var(--color8);
+}
+
+.collection-section h2 {
+    font-family: 'Georgia', serif;
+    font-size: 2em;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.table-wrapper {
+    overflow-x: auto;
+}
+
+.art-table {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: 'Georgia', serif;
+    font-size: 1em;
+}
+
+.art-table caption {
+    caption-side: top;
+    font-weight: 700;
+    font-size: 1.3em;
+    margin-bottom: 10px;
+    color: var(--color5);
+}
+
+.art-table th, .art-table td {
+    border: 1px solid var(--color6);
+    padding: 12px 18px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.art-table thead {
+    background-color: var(--color2);
+    color: var(--color8);
+}
+
+/* Artworks gallery (flex container) */
+.candle-flex-section {
+    margin: 40px 0;
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 22px;
+}
+
+.flex-container img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.flex-container img:hover {
+    transform: scale(1.08);
+}
+
+/* Reviews section */
+.reviews {
+    margin: 40px auto;
+    max-width: 700px;
+    font-style: italic;
+    color: var(--color5);
+}
+
+.reviews h3 {
+    font-family: 'Georgia', serif;
+    font-size: 2em;
+    margin-bottom: 12px;
+    color: var(--color6);
+}
+
+.reviews hr {
+    border: 1.5px solid var(--color5);
+    margin-bottom: 20px;
+}
+
+.reviews p {
+    margin-bottom: 15px;
+}
+
+/* Why Choose Us */
+.why-choose-us {
+    background-color: var(--color4);
+    color: var(--color7);
+    padding: 25px;
+    border-radius: 14px;
+    margin: 40px auto;
+    max-width: 800px;
+    font-family: 'Georgia', serif;
+    font-size: 1.3em;
+}
+
+.why-choose-us button {
+    margin-top: 20px;
+    background-color: var(--color8);
+    color: var(--color7);
+    border: none;
+    padding: 12px 28px;
+    font-size: 1.1em;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.why-choose-us button:hover {
+    background-color: var(--color5);
+}
+
+/* Inspiration blockquote */
+.inspiration {
+    max-width: 700px;
+    margin: 50px auto 70px;
+    font-family: 'Georgia', serif;
+    font-size: 1.2em;
+    color: var(--color3);
+    text-align: center;
+    line-height: 1.6;
+}
+
+.inspiration blockquote {
+    font-style: italic;
+    color: var(--color6);
+    border-left: 5px solid var(--color2);
+    padding-left: 15px;
+    margin-bottom: 25px;
+}
+
+.inspiration cite {
+    display: block;
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: 700;
+    color: var(--color5);
+}
+
+/* Follow Us Section */
+.follow-us {
+    background-color: var(--color1);
+    padding: 30px;
+    text-align: center;
+    color: var(--color8);
+    font-family: 'Palatino Linotype', serif;
+}
+
+.follow-us h3 {
+    font-size: 2em;
+    margin-bottom: 12px;
+}
+
+.follow-us ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.follow-us ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.follow-us ul li a {
+    color: var(--color5);
+    font-weight: 600;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+.follow-us ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Special Offers aside */
+.special-offers {
+    background-color: var(--color3);
+    color: var(--color7);
+    padding: 25px 30px;
+    max-width: 650px;
+    margin: 40px auto;
+    border-radius: 15px;
+    font-family: 'Georgia', serif;
+    text-align: center;
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.25);
+}
+
+.special-offers h3 {
+    margin-bottom: 18px;
+    font-size: 1.9em;
+    color: var(--color2);
+}
+
+.special-offers p {
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+
+.special-offers strong {
+    color: var(--color1);
+    font-weight: 700;
+}
+
+.special-offers button {
+    margin-top: 20px;
+    background-color: var(--color5);
+    color: var(--color7);
+    padding: 12px 30px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.special-offers button:hover {
+    background-color: var(--color6);
+}
+
+/* Footer */
+footer {
+    background-color: var(--color8);
+    color: var(--color7);
+    text-align: center;
+    padding: 20px 0;
+    font-family: 'Arial', sans-serif;
+    font-size: 0.9em;
+    letter-spacing: 1.1px;
+    margin-top: 50px;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .flex-container {
+        justify-content: center;
+    }
+
+    .flex-container img {
+        width: 140px;
+        height: 140px;
+    }
+}
